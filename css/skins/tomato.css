@@ -1,0 +1,121 @@
+body {
+  color: #222;
+  letter-spacing: 1px; }
+
+a {
+  color: #1E90FF; }
+
+p,
+body .main_footer,
+.s_about li {
+  color: #888; }
+
+.main_footer {
+  letter-spacing: 0px; }
+
+.color_element {
+  color: #1E90FF; }
+
+.color_bg {
+  background-color: #1E90FF; }
+
+.color_border {
+  border-color: #1E90FF; }
+
+.bg_light {
+  background-color: #FAFAFA; }
+
+.bg_dark {
+  background-color: #222;
+  color: #fff; }
+  .bg_dark .s_descr::after {
+    background-color: #fff; }
+  .bg_dark a {
+    color: #fff; }
+
+svg path {
+  fill: #888; }
+
+.top_mnu a:hover {
+  color: #1E90FF; }
+.top_mnu a {
+  letter-spacing: 4px; }
+
+.top_text p {
+  color: #FAFAFA;
+  letter-spacing: 5px; }
+.top_text .personal_header {
+  letter-spacing: 2px; }
+
+.s_descr {
+  letter-spacing: 4px; }
+  .s_descr::after {
+    background-color: #222; }
+
+section h3 {
+  letter-spacing: 3px;
+  color: #888; }
+
+.s_about p:nth-child(even) {
+  color: #1E90FF; }
+
+.resume_container h3 {
+  color: #222;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: 600; }
+.resume_container .left .resume_description strong {
+  margin-left: 10px; }
+.resume_container .right .resume_description strong {
+  margin-right: 10px; }
+
+.resume_icon {
+  font-size: 40px;
+  margin-bottom: 35px; }
+  .resume_icon .year {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 0 10px; }
+
+.resume_item .year {
+  background-color: #1E90FF; }
+.resume_item .resume_description {
+  letter-spacing: 1px; }
+
+.s_portfolio li {
+  color: #888;
+  letter-spacing: 2px; }
+.s_portfolio li.active {
+  color: #fff;
+  border-bottom: 1px solid #1E90FF; }
+
+.portfolio_item .port_item_cont a {
+  border-color: #1E90FF;
+  color: #1E90FF; }
+
+.main_footer a {
+  color: #1E90FF; }
+
+.contacts_icon {
+  color: #1E90FF; }
+
+.text-danger {
+  color: #1E90FF; }
+
+form input:focus,
+form textarea:focus {
+  border: 1px solid #1E90FF; }
+form input,
+form textarea {
+  letter-spacing: 2px; }
+form button {
+  background-color: #1E90FF;
+  letter-spacing: 2px; }
+form .form-group {
+  letter-spacing: 2px;
+  color: #888; }
+
+.popup_content {
+  letter-spacing: 1px; }
+
+/*# sourceMappingURL=tomato.css.map */
