@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|js|content|profile|script|test\.php|sitemap\.xml|robots\.txt|favicon.*\.ico)
+RewriteRule ^(.*)$ index.php?/$1 [L]
+
+AddType video/mp4 .mp4
+AddType video/x-ms-wmv .wmv
